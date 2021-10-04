@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deshbord"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_marginBottom="1000mm">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to RK University"
+            android:layout_marginLeft="10mm"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:shadowRadius="5" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nature"
+            android:layout_marginTop="5mm"/>
+
+        <TextView
+            android:id="@+id/er"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="20SOECA21005"
+            android:layout_marginTop="300dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:shadowRadius="5" />
+
+        <EditText
+            android:id="@+id/F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:textSize="20dp"
+            android:layout_marginTop="350dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Middle Name"
+            android:textSize="20dp"
+            android:layout_marginTop="380dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:textSize="20dp"
+            android:layout_marginTop="410dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textSize="20dp"
+            android:layout_marginTop="440dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/P"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20dp"
+            android:layout_marginTop="470dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/G"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20dp"
+            android:layout_marginTop="500dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="20dp"
+            android:layout_marginTop="530dp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
